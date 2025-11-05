@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg: rgb(16, 24, 33);
+    --card: rgb(16, 24, 33);
+    --border-card: rgb(255, 255, 255);
+    --color: white;
+    --nav-h: 70px;
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23000000' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+  margin-top: 1rem;
+}
+
+.btn.btn-primary:hover {
+    color: red;
+}
+
+.nav {
+    padding: 1rem;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 3rem;
+}
+
+#navbarNavAltMarkup {
+    flex-grow: 0;
+}
+
+.custom-header{
+    padding: 1rem;
+}
+
+.icon {
+    height: 400px;
+    border-radius: 100%;
+    /* padding-right: 100px; */
+}
+
+.destinasi {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: rgb(16, 24, 33);
+    scroll-margin-top: calc(var(--nav-h));
+}
+
+.lombok {
+    height: 14rem;
+}
+
+.custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.harga {
+    background-color: rgb(16, 24, 33);
+    scroll-margin-top: calc(var(--nav-h) -20px);
+}
+
+.custom-navbar {
+    color: white;
+    background-color: rgba(16, 24, 33, 0.633);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid white;
+}
+
+.custom-table {
+    background-color: rgb(16, 24, 33) !important;
+}
+
+.custom-table th {
+    background-color: rgb(16, 24, 33) !important;
+}
+
+.custom-table td {
+    background-color: rgb(16, 24, 33) !important;
+}
+
+.custom-table td,
+.custom-table th {
+    color: white !important;
+    border-color: white !important;
+}
+
+.kontak {
+    scroll-margin-top: calc(var(--nav-h) + 10px);
+}
+
+.divKontak {
+    /* margin-left: 300px; */
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.kirim {
+    height: 40px;
+    width: 100px;
+}
+
+.nama,
+.email,
+.pesan {
+    margin-bottom: 25px;
+}
+
+.custom-footer a {
+    text-decoration: none;
+}
+
+.custom-hover-nav:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.custom-hover-foo{
+    display: inline-block;
+}
+
+.custom-hover-foo:hover{
+    /* transform: scale(1.05); */
+    color: rgb(113, 113, 113);
+    transition: 0.6s;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin-top: 0;
+  }
+
+  .custom-header{
+    margin-top: 0;
+  }
+}

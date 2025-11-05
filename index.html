@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS-D0224308</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- Import Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body style="background-color: var(--bg); color: white;">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top px-4">
+        <div class="container nav">
+            <a class="navbar-brand text-white" href="#"><b>Wisata Impian</b></a>
+            <button class="navbar-toggler btn btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation" style="border: 1px solid var(--border-card);">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-white custom-hover-nav" aria-current="page" href="#">Beranda</a>
+                    <a class="nav-link text-white custom-hover-nav" href="#preview">Tempat</a>
+                    <a class="nav-link text-white custom-hover-nav" href="#kontak">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Start -->
+    <header class="mt-5 mb-5 px-4" id="#">
+        <div class="container align-items-center">
+            <div class="row justify-content-center g-4">
+                <div class="col-12 col-sm-6 my-auto">
+                    <div class="custom-header">
+                        <h2>Galeri Tempat Wisata Impian</h2>
+                        <p>Koleksi destinasi yang ingin saya kunjungi suatu hari nanti — Achmad Aidhil (D0224308)</p>
+                        <a href="#preview" class="btn btn-outline-light">Lihat Destinasi</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 my-auto">
+                    <div class="d-flex divIcon justify-content-center">
+                        <img class="icon" src="images/1.png" alt="icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Home End -->
+
+    <!-- Preview Card Start -->
+    <section class="destinasi px-4" id="preview">
+        <h2 class="text-center mb-4">Destinasi Favorit</h2>
+        <div class="container mt-4">
+            <div class="row justify-content-center g-4">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card h-100 custom-card"
+                        style="background-color: var(--card); color: var(--color); border: 1px solid var(--border-card);">
+                        <img src="/images/Bali.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Bali</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card’s
+                                content.</p>
+                            <a href="#table" class="btn btn-outline-light">Lihat Selengkapnya</a>
+                        </div>
+                        <footer class="card-footer" style="border-top: 1px solid white;">Rating: ★★★★☆</footer>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card custom-card"
+                        style="background-color: var(--card); color: var(--color); border: 1px solid var(--border-card);">
+                        <img src="/images/Lombok.jpg" class="card-img-top lombok">
+                        <div class="card-body">
+                            <h5 class="card-title">Lombok</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card’s
+                                content.</p>
+                            <a href="#table" class="btn btn-outline-light">Lihat Selengkapnya</a>
+                        </div>
+                        <footer class="card-footer" style="border-top: 1px solid white;">Rating: ★★★★☆</footer>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card custom-card"
+                        style="background-color: var(--card); color: var(--color); border: 1px solid var(--border-card);">
+                        <img src="/images/Raja Ampat.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Raja Ampat</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of
+                                the
+                                card’s
+                                content.</p>
+                            <a href="#table" class="btn btn-outline-light">Lihat Selengkapnya</a>
+                        </div>
+                        <footer class="card-footer" style="border-top: 1px solid white;">Rating: ★★★★☆</footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Preview Card End -->
+
+    <!-- Table Start -->
+    <section id="table" class="harga py-5 bg-section">
+        <div class="container text-center p-5">
+            <h3 class="pb-4">Daftar Destinasi & Info Singkat</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered custom-table">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Destinasi</th>
+                            <th>Negara</th>
+                            <th>Estimasi Biaya (Rp)</th>
+                            <th>Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Bali</td>
+                            <td>Indonesia</td>
+                            <td>500.000</td>
+                            <td>4.7</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Lombok</td>
+                            <td>Indonesia</td>
+                            <td>600.000</td>
+                            <td>4.4</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Raja Ampat</td>
+                            <td>Indonesia</td>
+                            <td>400.000</td>
+                            <td>4.5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Table End -->
+
+    <!-- Form Contact Start -->
+    <section class="kontak p-4" id="kontak">
+        <div class="container">
+            <div class="row justify-content-center g-4">
+                <div class="col col-12 col-sm-6 my-0">
+                    <div class="p-2">
+                        <h2 class="pb-4"><b>Kontak</b></h2>
+                        <ul>
+                            <li class="fs-4">Email : achmadaidhil2@gmail.com</li>
+                            <li class="fs-4">Telp : +628123456789</li>
+                            <li class="fs-4">Linkedin : Achmad Aidhil</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-6 my-auto">
+                    <div class="p-2 flex-fill divKontak">
+                        <div>
+                            <h3 class="pb-4"><b>Pesan</b></h3>
+                        </div>
+                        <div class="formKontak">
+                            <form action="" id="myFrom">
+                                <div class="nama">
+                                    <label for="nama">Nama</label><br>
+                                    <input type="text" id="nama" placeholder="Nama Lengkap" required>
+                                </div>
+                                <div class="email">
+                                    <label for="email">Email</label><br>
+                                    <input type="text" id="email" placeholder="email@gmail.com" required>
+                                </div>
+                                <div class="pesan">
+                                    <label for="pesan">Pesan</label><br>
+                                    <textarea class="rounded-1 p-2" id="pesan" placeholder="Pesan Anda" required
+                                        style="width: 100%; height: 200px"></textarea>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn rounded-1 kirim btn-outline-light"
+                                        onclick="validasiForm()">Kirim</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="divOutput py-4">
+                            <p id="output"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form Contact End -->
+
+    <!-- Footer Start -->
+    <footer class="footer py-5 px-4 border-top fixed-end">
+        <div class="container text-center">
+            <p class="align-middle custom-footer">2025 © Made With Love By <a class="custom-hover-foo"
+                    href="https://github.com/ahmadaidhil">Achmad Aidhil</a> Menggunakan <a class="custom-hover-foo"
+                    href="https://getbootstrap.com/">Bootstrap</a>
+            </p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- External Javascript -->
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
